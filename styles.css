@@ -1,0 +1,379 @@
+body{
+	background-color: black;
+}
+
+h1{
+	color: white;
+	font-family: sans-serif;
+	text-align: center;
+}
+
+
+.mainContainer{
+ position: relative;
+  width: 200px;
+  height: 200px;
+  display: inline-table;
+}
+
+.theCard{
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ transform-style: preserve-3d;
+ transition: all 0.5s ease;
+
+}
+
+.theCard:hover{
+	transform: rotateY(180deg);
+}
+ 
+.theFront{
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ backface-visibility: hidden;
+ background-color: blue;
+ color: white;
+ font-family: sans-serif;
+ text-align: center;
+}
+
+.theBack{
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ backface-visibility: hidden;
+ background-color: blue;
+ color: white;
+ font-family: sans-serif;
+ text-align: center;
+ transform: rotateY(180deg);
+
+}
+
+/*Second card*/
+
+.mainContainertwo{
+ position: relative;
+  
+  width: 200px;
+  height: 200px;
+  display: inline-table;
+
+}
+
+.theCardtwo{
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ transform-style: preserve-3d;
+ transition: all 0.5s ease;
+
+}
+
+.theCardtwo:hover{
+	transform: rotateY(180deg);
+}
+ 
+.theFronttwo{
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ backface-visibility: hidden;
+ background-color: purple;
+ color: white;
+ font-family: sans-serif;
+ text-align: center;
+}
+
+.theBacktwo{
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ backface-visibility: hidden;
+ background-color: purple;
+ color: white;
+ font-family: sans-serif;
+ text-align: center;
+ transform: rotateY(180deg);
+
+}
+/*Third card*/
+
+.mainContainerthree{
+ position: relative;
+  
+  width: 200px;
+  height: 200px;
+  display: inline-table;
+
+}
+
+.theCardthree{
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ transform-style: preserve-3d;
+ transition: all 0.5s ease;
+
+}
+
+.theCardthree:hover{
+	transform: rotateY(180deg);
+}
+ 
+.theFrontthree{
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ backface-visibility: hidden;
+ background-color: green;
+ color: white;
+ font-family: sans-serif;
+ text-align: center;
+}
+
+.theBackthree{
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ backface-visibility: hidden;
+ background-color: green;
+ color: white;
+ text-align: center;
+ font-family: sans-serif;
+ transform: rotateY(180deg);
+
+}
+
+/*Fourth card*/
+.mainContainerfour{
+ position: relative;
+ 
+  width: 200px;
+  height: 200px;
+  display: inline-table;
+
+}
+
+.theCardfour{
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ transform-style: preserve-3d;
+ transition: all 0.5s ease;
+
+}
+
+.theCardfour:hover{
+	transform: rotateY(180deg);
+}
+ 
+.theFrontfour{
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ backface-visibility: hidden;
+ background-color: red;
+ color: white;
+ font-family: sans-serif;
+ text-align: center;
+}
+
+.theBackfour{
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ backface-visibility: hidden;
+ background-color: red;
+ color: white;
+ text-align: center;
+ font-family: sans-serif;
+ transform: rotateY(180deg);
+
+}
+
+.mainContainerfive{
+ position: relative;
+  display: inline-table;
+  width: 200px;
+  height: 200px;
+
+}
+
+.theCardfive{
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ transform-style: preserve-3d;
+ transition: all 0.5s ease;
+
+}
+
+.theCardfive:hover{
+	transform: rotateY(180deg);
+}
+ 
+.theFrontfive{
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ backface-visibility: hidden;
+ background-color: red;
+ color: white;
+ font-family: sans-serif;
+ text-align: center;
+}
+
+.theBackfive{
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ backface-visibility: hidden;
+ background-color: red;
+ color: white;
+ text-align: center;
+ font-family: sans-serif;
+ transform: rotateY(180deg);
+
+}
+
+
+.mainContainersix{
+ position: relative;
+ display: inline-table;
+  width: 200px;
+  height: 200px;
+
+}
+
+.theCardsix{
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ transform-style: preserve-3d;
+ transition: all 0.5s ease;
+
+}
+
+.theCardsix:hover{
+	transform: rotateY(180deg);
+}
+ 
+.theFrontsix{
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ backface-visibility: hidden;
+ background-color: green;
+ color: white;
+ font-family: sans-serif;
+ text-align: center;
+}
+
+.theBacksix{
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ backface-visibility: hidden;
+ background-color: green;
+ color: white;
+ font-family: sans-serif;
+ text-align: center;
+ transform: rotateY(180deg);
+
+}
+
+
+.mainContainerseven{
+ position: relative;
+   display: inline-table;
+  width: 200px;
+  height: 200px;
+
+}
+
+.theCardseven{
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ transform-style: preserve-3d;
+ transition: all 0.5s ease;
+
+}
+
+.theCardseven:hover{
+	transform: rotateY(180deg);
+}
+ 
+.theFrontseven{
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ backface-visibility: hidden;
+ background-color: purple;
+ color: white;
+ font-family: sans-serif;
+ text-align: center;
+}
+
+.theBackseven{
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ backface-visibility: hidden;
+ background-color: purple;
+ color: white;
+ font-family: sans-serif;
+ text-align: center;
+ transform: rotateY(180deg);
+
+}
+
+
+.mainContainereight{
+ position: relative;
+ display: inline-table;
+  width: 200px;
+  height: 200px;
+
+}
+
+.theCardeight{
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ transform-style: preserve-3d;
+ transition: all 0.5s ease;
+
+}
+
+.theCardeight:hover{
+	transform: rotateY(180deg);
+}
+ 
+.theFronteight{
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ backface-visibility: hidden;
+ background-color: blue;
+ color: white;
+ font-family: sans-serif;
+ text-align: center;
+}
+
+.theBackeight{
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ backface-visibility: hidden;
+ background-color: blue;
+ color: white;
+ font-family: sans-serif;
+ text-align: center;
+ transform: rotateY(180deg);
+
+}
